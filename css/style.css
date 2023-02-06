@@ -29,6 +29,9 @@
 
 /* inizio navbar */
 
+nav{
+    margin-bottom: 20px;
+}
 
 #container-navbar{
    
@@ -55,7 +58,9 @@
 /* blue section */
 
 #blue-section{
-   
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 
 .blue-cards{
