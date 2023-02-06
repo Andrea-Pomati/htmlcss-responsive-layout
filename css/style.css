@@ -208,3 +208,35 @@ nav{
 
 
 
+/* inizio about us */
+
+
+#flex-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+#img-about-us{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+#contenitore-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+
+#contenitore-img-virgolette{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
