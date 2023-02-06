@@ -55,7 +55,7 @@ nav{
 /* inizia il main */
 
 
-/* blue section */
+/* inizio blue section */
 
 #blue-section{
    display: flex;
@@ -87,3 +87,15 @@ nav{
     flex-direction: column;
     gap: 30px;
 }
+
+/* fine blue section */
+
+
+
+/* violet section */
+
+.violet-background{
+    background-color: #9792E4;
+    
+}
+
