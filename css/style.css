@@ -122,3 +122,36 @@ nav{
 
 }
 
+/* fine violet section */
+
+
+
+
+
+/* inizio sezione testimonials */
+
+
+.cards-viola{
+    background-color: #9792E4;
+    height: auto;
+    border-radius: 5%;
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.img-testimonial{
+    max-width: 70% ;
+    border-radius: 50%;
+}
+
+
+.paragrafo-nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
