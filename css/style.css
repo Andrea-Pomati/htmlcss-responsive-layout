@@ -104,12 +104,12 @@ nav{
     width: 576px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
 }
 
-.violet-cards{
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
 
 #planning-uno{
     height: 250px;
@@ -193,3 +193,12 @@ nav{
     gap: 40px;
     margin-top: 70px;
 }
+
+
+/* fine testimonials */
+
+
+
+/* inizio benefit */
+
+
