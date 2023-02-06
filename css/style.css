@@ -139,6 +139,10 @@ nav{
 /* inizio sezione testimonials */
 
 
+#altezza-section-testimonials{
+    height: 1500px;
+}
+
 .cards-viola{
     background-color: #9792E4;
     height: auto;
@@ -149,6 +153,7 @@ nav{
     align-items: center;
     gap: 50px;
 }
+
 
 
 .img-testimonial{
