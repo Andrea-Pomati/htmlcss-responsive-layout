@@ -17,17 +17,32 @@
 
 /* contenitore  generico */
 
+.container-centered{
+    margin-left: 50px;
+    margin-right: 50px ;
 
+}
+
+
+/* contenuto centrato generico */
 
 /* inizio navbar */
 
 
 #container-navbar{
-    height: 60px;
+   
     background-color: #0084FD;
-    padding-left: 50px;
-    padding-right: 50px;
+
+  
+}
+
+#centra-navbar{
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+
+
+/* fine navbar */
