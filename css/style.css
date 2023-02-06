@@ -7,7 +7,7 @@
 /* regole generali */
 
 
-.container-centered{
+.container-full{
     max-width: 576px;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +15,8 @@
 
 }
 
-/* contenitore centrato generico */
+/* contenitore  generico */
+
 
 
 /* inizio navbar */
@@ -24,6 +25,8 @@
 #container-navbar{
     height: 60px;
     background-color: #0084FD;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
