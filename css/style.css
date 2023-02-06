@@ -99,3 +99,19 @@ nav{
     
 }
 
+#planning-uno{
+    height: 250px;
+
+}
+
+#planning-due{
+   width: 100%;
+}
+
+#card-bianca{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5%;
+
+}
