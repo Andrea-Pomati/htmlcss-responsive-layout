@@ -320,7 +320,14 @@ nav{
     flex-direction: row;
 }
 
+.flex-cards-white{
+    flex-wrap: wrap;
+    flex-direction: row;
 
+}
 
+.centered-cards{
+    width: calc(100% / 2 - (30px / 2 * 3));
+}
 
 }
