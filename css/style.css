@@ -76,6 +76,25 @@ nav{
     
 }
 
+.centered-cards-sotto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+
+}
+
+.centered-cards-viola{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+
+}
+
+
 .scritte-blu{
     color: #3CA1FD;
 
@@ -139,6 +158,7 @@ nav{
    width: 100%;
 }
 
+
 #card-bianca{
     background-color: white;
     width: 100%;
@@ -148,8 +168,10 @@ nav{
     align-items: center;
     gap: 40px;
 
-
 }
+
+
+
 
 .scritte-bianche{
     color: white;
@@ -326,8 +348,86 @@ nav{
 
 }
 
-.centered-cards{
-    width: calc(100% / 2 - (30px / 2 * 3));
+.centered-cards-sotto{
+    width: calc(100% / 2 - (30px / 2 * 1));;
+}
+
+
+#flex-about-us{
+    flex-direction: row;
 }
 
 }
+
+/* fine tablet*/
+
+
+/* inizio desktop */
+
+
+@media screen and (min-width: 768px){
+
+    #blue-section {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 80px;
+        flex-wrap: wrap;
+     }
+     
+     #get-a-demo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        width: calc(100% / 3 * 2 - 20px / 3);
+    }
+    
+    .blue-cards {
+        background-color: #85ddff;
+        height: auto;
+        border-radius: 5%;
+        width: calc(100% / 3 - 20px / 3 * 2);
+    }
+    
+    #container-planning {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .flex-violet-planning{
+        flex-direction: row;
+    }
+
+    .centered-cards-viola{
+        justify-content: flex-end;
+
+
+    }
+
+    #flex-about-us{
+        flex-direction: row;
+    }
+
+
+    .centered-cards-sotto{
+        width: calc(100% / 3 - (30px / 3 * 2));;
+    }
+    
+    .flex-cards-white{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+    .cards-viola{
+        flex-direction: row;
+    }
+}
+  
+    
+
+
+
