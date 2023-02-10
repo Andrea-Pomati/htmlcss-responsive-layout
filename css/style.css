@@ -341,6 +341,37 @@ nav{
 
 
 
+
+
+/* black section */
+
+.black-background{
+    background-color: #333333;
+}
+
+.flex-black{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+
+}
+
+.scritte-viola-sottolineate{
+    color: #9792E4;
+    text-decoration: underline;
+}
+
+#margin-p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
 /* media query */
 
 
