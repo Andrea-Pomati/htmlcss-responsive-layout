@@ -317,6 +317,27 @@ nav{
     width: 180px;
 }
 
+/* it's free */
+
+#contenitore-free{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.scritte-gialle{
+    font-size: 40px;
+    color: #FDC15F ;
+}
+
+.pulsante-viola-started{
+    color:#9792E4;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 29px;
+}
 
 
 
