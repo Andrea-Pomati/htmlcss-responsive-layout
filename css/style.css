@@ -14,6 +14,8 @@
     margin-right: auto;
     max-width: 1000px;
     padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 nav{
@@ -30,6 +32,7 @@ nav{
     align-items: center;
     height: 70px;
     margin-bottom: 40px;
+    padding-top: 50px;
 
 
 }
@@ -302,6 +305,17 @@ nav{
 
 }
 
+.scritta-grande{
+    font-weight: bold;
+}
+
+.pulsante-viola{
+    background-color: #9792E4;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    width: 180px;
+}
 
 
 
